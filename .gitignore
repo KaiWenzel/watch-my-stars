@@ -149,6 +149,8 @@ activemq-data/
 
 # Environments
 .env
+.env.local
+*.pem
 .envrc
 .venv
 env/
@@ -216,3 +218,13 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+
+
+
+#My adds
+*.json.gz
+*.json.bz2
+.vscode/
+.idea/
+.DS_Store
